@@ -1,0 +1,92 @@
+* {
+	font-family: Titillium Web;
+}
+
+.navbar-contents {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.all-centered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-vertical {
+  flex-direction: column;
+}
+
+.all-centered > * {
+  margin: 4px;
+}
+
+.cheet-form {
+  display: flex;
+  justify-content: space-evenly;
+  align-content: center;
+  width: 100%;
+}
+
+.cheet-textarea {
+  flex-grow: 9;
+}
+
+.cheet-submit-button {
+  flex-grow: 1;
+}
+
+.cheet-feed > * {
+  margin: 4px;
+}
+
+.recheet-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.search-form {
+  margin-top: 30px;
+}
+
+.user-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.recheet-button {
+  width: fit-content;
+}
+
+.user-name {
+  flex-grow: 9;
+  margin: 0 !important;
+}
+
+.no-bottom-margin {
+  margin: 0 !important;
+}
+
+.webdsl-placeholder {
+  display: grid;
+  grid-template-columns: 32% 32% 32%;
+  grid-template-rows: 100px;
+  gap: 1%;
+}
+
+.webdsl-placeholder > * {
+  margin: 4px;
+}
+
+.user-intro {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
