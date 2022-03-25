@@ -7,8 +7,8 @@ function Feed() {
   const { authenticatedUserInfo } = React.useContext(AuthenticatedUserContext);
   const loggedIn = !!authenticatedUserInfo;
 
-  const [message, setMessage] = React.useState("");
-  const [cheets, setCheets] = React.useState(null);
+  const [message, setMessage] = useState("");
+  const [cheets, setCheets] = useState(null);
 
   const [refetch, setRefetch] = useState(0);
   const forceUpdate = () => setRefetch((refetch) => refetch + 1);

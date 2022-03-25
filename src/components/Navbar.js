@@ -10,7 +10,6 @@ function Navbar() {
   const navigate = useNavigate();
 
   async function logout() {
-    console.log("logout invoked");
     // logoutChitter();
     const logoutResponse = await fetch("/chitter/userLogout", {
       method: "POST",
@@ -44,7 +43,7 @@ function Navbar() {
           <div className="all-centered">
             {!!loggedIn && (
               <>
-                <Link to="/profile">
+                <Link to={`/profile/${authenticatedUserInfo.username}`}>
                   <i className="fa-solid fa-user fa-2x" />
                 </Link>
                 <Link to="/search">
