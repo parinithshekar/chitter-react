@@ -9,9 +9,7 @@ function CheetFeed({ cheets, updateParent }) {
     await fetch(`chitter/recheet/${cheetId}`, {
       method: "POST",
     });
-    console.log("updating parent");
     updateParent();
-    console.log("parent updated");
   }
 
   return (

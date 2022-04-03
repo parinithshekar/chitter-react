@@ -63,7 +63,7 @@ function Profile() {
             )}
           </div>
         </div>
-        <CheetFeed cheets={userInfo.cheets} />
+        <CheetFeed cheets={userInfo.cheets} updateParent={forceUpdate} />
       </>
     )
   ) : (

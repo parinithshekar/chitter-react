@@ -30,6 +30,7 @@ function Feed() {
           message,
         }),
       });
+      forceUpdate();
     }
     setMessage("");
   }
